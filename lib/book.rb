@@ -1,4 +1,10 @@
 class Book
   
-  def initialize(title)
+  def initialize(title = "none")
+    
+    @title = title
+    
+  end
+  
+  
 
